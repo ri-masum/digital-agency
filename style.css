@@ -56,6 +56,7 @@
 
 .btn-primary {
     background-color: white;
+    border-radius: 8px;
 
 }
 .service-container{
@@ -107,4 +108,32 @@
     justify-content: center;
     margin-top: 20px;
     margin-right: 190px;
+    gap: 20px;
+}
+.apoinment-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin:auto;
+    padding: 30px;
+    background-color: rgb(213, 86, 58);
+    /* background-image: url('./asset/image/blog-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-size: cover; */
+
+
+    border-radius: 15px;
+    margin-top: -40px;
+
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.apoinment-desc{
+    width: 30%;
+    margin: auto;
 }
