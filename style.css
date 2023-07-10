@@ -192,6 +192,7 @@ body{
     width: 100%;
     height: 300px;
     margin-top: 20px;
+    border-radius: 200px 0px 0px 0px;
 
 
     display: flex;
@@ -220,4 +221,33 @@ h3{
 }
 .social-icon{
     margin-left: 25px;
+    
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background:tomato;
+    border-radius: 3px;
+    position:relative;
+    top: 8px;
+    left: 0;
+    overflow: hidden;
+
+}.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
 }
