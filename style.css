@@ -81,3 +81,30 @@
     
 
 }
+.first-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+
+}
+.auther-img
+{
+    width: 70px;
+    height: 50px;
+    border-radius: 70px;
+
+
+}
+.profile-container{
+    display: flex;
+    border-right: 3px solid tomato;
+
+
+}
+.auther-container{
+    display: flex;
+
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 190px;
+}
