@@ -137,3 +137,40 @@
     width: 30%;
     margin: auto;
 }
+.blog-title{
+    color: black;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.vlog-text{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    box-shadow: 3px 4px 8px;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+.vlog-img
+{
+    width: 100%;
+    border-radius: 10px;
+
+
+    
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
